@@ -11,6 +11,7 @@ RUN set -ex \
 		libjpeg62-turbo-dev \
 		libpng12-dev \
 		libpq-dev \
+		postgresql-9.4 \
 	' \
 	# install postgres and git
 	&& devDeps=' \
