@@ -1,0 +1,27 @@
+uuid: 5170e92a-d6d0-437b-900d-725d1351d68b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.file.field_media_file
+    - media.type.file
+  module:
+    - file
+_core:
+  default_config_hash: UT7DLCZ855GoaFZGnFwtEu42SskWbmmHvYDj4uUcuYQ
+id: media.file.default
+targetEntityType: media
+bundle: file
+mode: default
+content:
+  field_media_file:
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    weight: 0
+    region: content
+hidden:
+  created: true
+  thumbnail: true
+  uid: true

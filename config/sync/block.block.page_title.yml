@@ -1,0 +1,20 @@
+uuid: da4b5ec7-bc41-45f9-99e6-06728312a53a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pbot
+_core:
+  default_config_hash: yZv4_e5TR_c3UBXPNaYwEQ5S10m51BNN4Y4H7UihOXg
+id: page_title
+theme: pbot
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
