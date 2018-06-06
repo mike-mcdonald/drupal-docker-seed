@@ -28,9 +28,7 @@ dependencies:
   - breakpoint
   - ckeditor
   - color
-  - comment
   - config
-  - contact
   - contextual
   - ctools
   - datetime
@@ -55,7 +53,6 @@ dependencies:
   - pathauto
   - quickedit
   - rdf
-  - search
   - shortcut
   - system
   - taxonomy
@@ -63,7 +60,6 @@ dependencies:
   - text
   - token
   - toolbar
-  - tour
   - update
   - user
   - views_ui
@@ -76,5 +72,3 @@ dependencies:
 themes:
   - bartik
   - seven
-  - bootstrap
-  - pbot
