@@ -1,4 +1,4 @@
-uuid: bf8c8bbc-7ea7-455e-83ec-2d985050d925
+uuid: 4a6668fa-deb5-44be-b19c-847696819b43
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,10 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap
-_core:
-  default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
-id: bootstrap_footer
-theme: bootstrap
-region: footer
+    - bartik
+id: bartik_footer
+theme: bartik
+region: footer_fifth
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

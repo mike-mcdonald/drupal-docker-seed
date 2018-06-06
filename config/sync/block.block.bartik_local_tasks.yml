@@ -1,15 +1,13 @@
-uuid: 8e62256f-91d1-4342-a9ec-b9e20d41499c
+uuid: cd61cb0b-0f25-40e3-b0b1-dbef9c90b0fe
 langcode: en
 status: true
 dependencies:
   theme:
-    - pbot
-_core:
-  default_config_hash: kEac0TdE8zzcQ71ODmvrvPaOzIOPCaVY6m7flYOp2iY
-id: tabs
-theme: pbot
-region: header
-weight: 0
+    - bartik
+id: bartik_local_tasks
+theme: bartik
+region: content
+weight: -40
 provider: null
 plugin: local_tasks_block
 settings:

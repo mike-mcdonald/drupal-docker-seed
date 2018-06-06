@@ -1,15 +1,13 @@
-uuid: da4b5ec7-bc41-45f9-99e6-06728312a53a
+uuid: 8da79181-1525-4d00-a8fe-88a5796824c0
 langcode: en
 status: true
 dependencies:
   theme:
-    - pbot
-_core:
-  default_config_hash: yZv4_e5TR_c3UBXPNaYwEQ5S10m51BNN4Y4H7UihOXg
-id: page_title
-theme: pbot
-region: header
-weight: 0
+    - bartik
+id: bartik_page_title
+theme: bartik
+region: content
+weight: -50
 provider: null
 plugin: page_title_block
 settings:

@@ -1,16 +1,14 @@
-uuid: 38a6abc3-a197-483e-8864-5797fc221f1f
+uuid: 814a93e6-7579-4caf-a5fe-2ceea9281a84
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap
-_core:
-  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
-id: bootstrap_branding
-theme: bootstrap
-region: navigation
+    - bartik
+id: bartik_branding
+theme: bartik
+region: header
 weight: 0
 provider: null
 plugin: system_branding_block
@@ -21,5 +19,5 @@ settings:
   label_display: '0'
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: false
+  use_site_slogan: true
 visibility: {  }

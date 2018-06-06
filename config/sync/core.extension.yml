@@ -5,9 +5,7 @@ module:
   breakpoint: 0
   ckeditor: 0
   color: 0
-  comment: 0
   config: 0
-  contact: 0
   contextual: 0
   ctools: 0
   datetime: 0
@@ -39,7 +37,6 @@ module:
   text: 0
   token: 0
   toolbar: 0
-  tour: 0
   update: 0
   user: 0
   views_ui: 0
@@ -49,9 +46,7 @@ module:
   views: 10
   seed: 1000
 theme:
-  bootstrap: 0
   stable: 0
-  pbot: 0
   classy: 0
   bartik: 0
   seven: 0

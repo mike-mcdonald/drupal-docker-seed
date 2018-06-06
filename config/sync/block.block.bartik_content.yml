@@ -1,15 +1,13 @@
-uuid: db20c480-c753-4745-8a0e-007a1430066b
+uuid: d5c9082a-f7aa-43d3-8ee7-254592f9fab0
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - pbot
-_core:
-  default_config_hash: C6zwQd6XFZhYwnx2trFm6gqAzHzlkYAUyRVJkx1Fk-s
-id: main_page_content
-theme: pbot
+    - bartik
+id: bartik_content
+theme: bartik
 region: content
 weight: 0
 provider: null
@@ -18,5 +16,5 @@ settings:
   id: system_main_block
   label: 'Main page content'
   provider: system
-  label_display: visible
+  label_display: '0'
 visibility: {  }

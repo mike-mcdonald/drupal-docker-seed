@@ -1,17 +1,15 @@
-uuid: 09ebb5fc-05a1-4b44-8c91-baffd340f6ad
+uuid: b7ea21cc-19c4-4814-ae8a-f1201656c0a1
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - pbot
-_core:
-  default_config_hash: KC5zxHL7Ng4dDbBMANjoODshSPcCXHp7AQwvst-nLuw
-id: help
-theme: pbot
-region: help
-weight: 0
+    - bartik
+id: bartik_help
+theme: bartik
+region: content
+weight: -30
 provider: null
 plugin: help_block
 settings:
